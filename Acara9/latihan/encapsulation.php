@@ -1,7 +1,10 @@
 <?php
-class person
+class Person
 {
-    public $name;
+    public function __construct()
+    {
+    }
+    var $name;
 
     function setName($new_name)
     {
